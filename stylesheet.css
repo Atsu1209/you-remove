@@ -1,0 +1,87 @@
+        #fileInput {
+            display: block;
+            margin: 0 auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #fff;
+            font-size: 16px;
+        }
+        #fileInput::-webkit-file-upload-button {
+            cursor: pointer;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+         h1,h4{
+            text-align: center;
+            margin-top: 20px;
+            color: #444;
+        }
+        .p{
+            text-align: center;
+        }
+        .controls {
+            margin: 20px auto;
+            text-align: center;
+        }
+        .controls label {
+            margin: 0 10px;
+        }
+        .controls input[type="number"] {
+            width: 80px;
+            padding: 5px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .controls button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+         .controls button:hover {
+            background-color: #0056b3;
+        }
+        #container {
+            position: relative;
+            display: inline-block;
+        }
+        #backgroundImage, #uploadImage {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #uploadImage {
+            display: none;
+            cursor: move;
+        }
+        .controls {
+            margin-top: 10px;
+        }
+        #previewContainer {
+            display: none;
+            position: fixed;
+            top: 20%;
+            left: 20%;
+            width: 60%;
+            height: 60%;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            padding: 20px;
+            z-index: 1000;
+            overflow: auto;
+        }
+        #previewImage {
+            max-width: 100%;
+            max-height: 100%;
+        }
